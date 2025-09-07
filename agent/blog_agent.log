@@ -1,0 +1,127 @@
+2025-09-04 14:04:22,803 - __main__ - ERROR - Error retrieving thread history: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:04:22,811 - __main__ - ERROR - Error retrieving user context: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:04:28,471 - __main__ - ERROR - Error in intent classification: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-04 14:04:28,693 - __main__ - ERROR - Error generating casual response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-04 14:04:28,695 - __main__ - ERROR - Error saving conversation: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:04:28,696 - __main__ - ERROR - Error processing query: 'dict' object has no attribute 'response'
+2025-09-04 14:07:14,181 - __main__ - ERROR - Error retrieving thread history: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:07:14,187 - __main__ - ERROR - Error retrieving user context: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:07:18,249 - __main__ - ERROR - Error in intent classification: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-04 14:07:18,439 - __main__ - ERROR - Error generating casual response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-04 14:07:18,439 - __main__ - ERROR - Error saving conversation: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:07:18,439 - __main__ - ERROR - Error processing query: 'dict' object has no attribute 'response'
+2025-09-04 14:07:39,142 - __main__ - ERROR - Error retrieving thread history: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:07:39,148 - __main__ - ERROR - Error retrieving user context: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:07:39,491 - __main__ - ERROR - Error in intent classification: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-04 14:07:39,505 - __main__ - INFO - Searching for: genrate blog related to ai agent
+2025-09-04 14:07:51,694 - __main__ - INFO - Found 8 unique search results
+2025-09-04 14:07:51,694 - __main__ - INFO - Search completed: 8 results
+2025-09-04 14:07:51,925 - __main__ - ERROR - Error generating blog: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-04 14:07:51,925 - __main__ - ERROR - Error saving conversation: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:07:51,936 - __main__ - ERROR - Error processing query: 'dict' object has no attribute 'response'
+2025-09-04 14:23:10,111 - __main__ - ERROR - Error retrieving user context: Collection objects do not implement truth value testing or bool(). Please compare with None instead: collection is not None
+2025-09-04 14:23:12,152 - __main__ - ERROR - Error in intent classification: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-09-04 14:23:12,474 - __main__ - ERROR - Error generating casual response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-09-04 14:23:13,533 - __main__ - INFO - Conversation saved with ID: 68b95a80e22202864776d9f3
+2025-09-04 14:23:13,533 - __main__ - ERROR - Error processing query: 'dict' object has no attribute 'response'
+2025-09-04 14:28:22,891 - __main__ - INFO -  Tavily client initialized
+2025-09-04 14:28:22,891 - __main__ - INFO -  Gemini model initialized
+2025-09-04 14:28:28,142 - __main__ - INFO -  MongoDB connected successfully
+2025-09-04 14:28:33,639 - __main__ - INFO - Searching for: hi
+2025-09-04 14:28:44,656 - __main__ - INFO - Found 10 unique search results
+2025-09-04 14:28:44,657 - __main__ - INFO - Search completed: 10 results
+2025-09-04 14:28:54,422 - __main__ - INFO - Conversation saved with ID: 68b95bd6baa593c6da074a57
+2025-09-04 14:28:54,422 - __main__ - ERROR - Error processing query: 'dict' object has no attribute 'response'
+2025-09-04 14:43:13,891 - __main__ - INFO -  Tavily client initialized
+2025-09-04 14:43:13,891 - __main__ - INFO -  Gemini model initialized
+2025-09-04 14:43:19,679 - __main__ - INFO -  MongoDB connected successfully
+2025-09-04 14:43:26,500 - __main__ - INFO - Searching for: hi
+2025-09-04 14:43:36,975 - __main__ - INFO - Found 10 unique search results
+2025-09-04 14:43:36,975 - __main__ - INFO - Search completed: 10 results
+2025-09-04 14:43:46,921 - __main__ - INFO - Conversation saved with ID: 68b95f521e517d423fd31860
