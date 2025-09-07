@@ -28,9 +28,10 @@ It is built with Next.js, FastAPI, and LangGraph, with OpenAI integration for ge
 git clone https://github.com/alihassan-coder/blog-post-generato-backend.git
 cd ai-blog-generator
 
+```
+---
 
-
-
+```
 
     "fastapi>=0.116.1",
     "uvicorn>=0.35.0",
@@ -43,3 +44,5 @@ cd ai-blog-generator
     "python-dotenv>=1.0.0",
     "cors>=1.0.1",
     "fastapi-cors>=0.0.6",
+
+```
