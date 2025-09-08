@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -90,6 +90,7 @@ dependencies = [
     { name = "google-generativeai" },
     { name = "langchain-core" },
     { name = "langgraph" },
+    { name = "mangum" },
     { name = "motor" },
     { name = "openai" },
     { name = "passlib", extra = ["bcrypt"] },
@@ -110,6 +111,7 @@ requires-dist = [
     { name = "google-generativeai", specifier = ">=0.8.5" },
     { name = "langchain-core", specifier = ">=0.3.75" },
     { name = "langgraph", specifier = ">=0.6.6" },
+    { name = "mangum", specifier = ">=0.19.0" },
     { name = "motor", specifier = ">=3.7.1" },
     { name = "openai", specifier = ">=1.105.0" },
     { name = "passlib", extras = ["bcrypt"], specifier = ">=1.7.4" },
@@ -697,6 +699,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/20/ad/2c89c128b575d89ba7c7af05de6d715703fe9648110f2ec3c90255956681/langsmith-0.4.21.tar.gz", hash = "sha256:eabfb66970d50964918acba524b407e8cfe585448013e3135ca92388c858d009", size = 938666, upload-time = "2025-08-29T21:46:27.174Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7d/79/5ccad558563861f7ae6a77aeba259578c35192e9c109b0142fcf490b3c50/langsmith-0.4.21-py3-none-any.whl", hash = "sha256:15b189e2e7a3337a07cf250d91e158efcd0b39458735dc9e583c56dd0f21e4e0", size = 378494, upload-time = "2025-08-29T21:46:24.714Z" },
+]
+
+[[package]]
+name = "mangum"
+version = "0.19.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/97/e0/6ee9bfa27226252a449cba12fc57d3f1c3ce661813377ab33e29245389a4/mangum-0.19.0.tar.gz", hash = "sha256:e388e7c491b7b67970f8234e46fd4a7b21ff87785848f418de08148f71cf0bd6", size = 85792, upload-time = "2024-09-26T20:44:49.773Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/77/ec/dd1cae5f6b1b4a08c01de587b45e889036b2f8c06408621e0cb273909965/mangum-0.19.0-py3-none-any.whl", hash = "sha256:e500b35f495d5e68ac98bc97334896d6101523f2ee2c57ba6a61893b65266e59", size = 17083, upload-time = "2024-09-26T20:44:48.357Z" },
 ]
 
 [[package]]

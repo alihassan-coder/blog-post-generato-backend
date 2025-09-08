@@ -14,3 +14,5 @@ pydantic[email]>=2.11.7
 email-validator>=2.3.0
 python-dotenv>=1.1.1
 openai>=1.105.0
+mangum>=0.17.0
+
