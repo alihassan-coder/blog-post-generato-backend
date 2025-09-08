@@ -4,7 +4,7 @@ from contextlib import asynccontextmanager
 from config.database_config import client, ALLOWED_ORIGINS
 from routes import auth, chat
 from routes import agent as agent_routes
-from mangum import Mangum  # 👈 Import Mangum
+
 
 # Lifespan management
 @asynccontextmanager
@@ -46,11 +46,4 @@ def root():
 @app.get("/health")
 def health_check():
     return {"status": "healthy", "message": "API is running successfully"}
-
-# 👇 Required for Vercel
-handler = Mangum(app)
-
-# Local dev entrypoint
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    
