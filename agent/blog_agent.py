@@ -4,6 +4,8 @@ Blog Generation AI Agent - Complete Single File Implementation
 Run with: python blog_agent.py
 """
 
+
+# this is the complete single file implementation of the blog generation agent
 import os
 import json
 import logging
