@@ -8,6 +8,10 @@ from routes import agent as agent_routes
 
 app = FastAPI()
 
+from mangum import Mangum
+
+# Expose handler for Vercel
+handler = Mangum(app)
 
 
 @app.get("/")
