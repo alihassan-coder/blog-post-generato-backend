@@ -68,3 +68,20 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 07:39:17,526 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\coding project\ai-blog-genrater\blog-post-generato-backend\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 07:40:36,576 - agent.blog_agent - INFO -  Tavily client initialized
+2025-09-09 07:40:36,576 - agent.blog_agent - INFO -  Gemini model initialized
+2025-09-09 07:40:42,683 - agent.blog_agent - INFO -  MongoDB connected successfully
+2025-09-09 07:40:45,688 - agent.blog_agent - INFO - Searching for: genrate a full blog post about the ai base ids add why it important what it do what it impalcet how ..
+2025-09-09 07:41:09,119 - agent.blog_agent - INFO - Found 10 unique search results
+2025-09-09 07:41:09,120 - agent.blog_agent - INFO - Search completed: 10 results
+2025-09-09 07:41:19,586 - agent.blog_agent - INFO - Conversation saved with ID: 68c03c8f001ddf2b7fd51c47
+2025-09-09 07:42:22,110 - agent.blog_agent - INFO - Searching for: can you add one things more heading in it
+2025-09-09 07:42:34,661 - agent.blog_agent - INFO - Found 9 unique search results
+2025-09-09 07:42:34,661 - agent.blog_agent - INFO - Search completed: 9 results
+2025-09-09 07:42:45,413 - agent.blog_agent - INFO - Conversation saved with ID: 68c03ce5001ddf2b7fd51c4a
