@@ -8,6 +8,8 @@ from routes import agent as agent_routes
 
 app = FastAPI()
 
+
+
 @app.get("/")
 def root():
     return {"message": "AI Blog Generator API is running!"}
