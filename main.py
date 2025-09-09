@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from mangum import Mangum
 from contextlib import asynccontextmanager
 from config.database_config import client, ALLOWED_ORIGINS
 from routes import auth, chat
@@ -8,9 +9,8 @@ from routes import agent as agent_routes
 
 app = FastAPI()
 
-from mangum import Mangum
 
-# Expose handler for Vercel
+# Expose handler for VercelS
 handler = Mangum(app)
 
 
