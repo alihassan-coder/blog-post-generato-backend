@@ -10,8 +10,7 @@ from routes import agent as agent_routes
 app = FastAPI()
 
 
-# Expose handler for VercelS
-handler = Mangum(app)
+
 
 
 @app.get("/")
@@ -34,4 +33,5 @@ app.include_router(chat.router)
 app.include_router(agent_routes.router)
 
 
-
+# Expose handler for VercelS
+handler = Mangum(app)
